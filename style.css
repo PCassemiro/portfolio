@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    font-style: ;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.Inicio{
+    height:100vh ;
+}
+
+.QuemSouEu{
+    height:100vh ;
+    background-color: gold;
+}
+
+.Conhecimento{
+    height:100vh ;
+}
+
+.Projetos{
+    height:100vh ;
+}
+
+.Contatos{
+    height:100vh ;
+}
