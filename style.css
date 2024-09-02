@@ -21,7 +21,13 @@ body{
 
 .QuemSouEu{
     height:100vh ;
-    display: flex;  
+    display: flex;
+    flex-direction: row;  
+}
+
+.QuemSouEu img{
+    height: 50vh;
+    width: 50vh;
 }
 
 /* .QuemSouEu h1, .QuemSouEu p{
@@ -34,9 +40,21 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Define duas colunas de tamanho igual */
     gap: 10px; /* Espaçamento entre os elementos */
-    text-align: center;
+    text-align: center;  
     
-        
+}
+
+.Conhecimento img{
+    border-radius: 5px;
+    height:100px ;
+    width:100px ;
+    background-color: white;
+    
+}
+
+.Conhecimento p1{  /*Pretendo colocar p1 a direita da imagem*/ 
+    text-align: right;/*mudou nada no site*/
+    
 }
 
 .Projetos{
@@ -47,8 +65,15 @@ body{
 .Contatos{
     height:100vh ;
     
+    
 }
 
+.Contatos img{
+    border-radius: 5px;
+    height:50px ;
+    width:50px ;
+
+}
 /* .Python, .Java, .Html, .Css, .Javascript, .Sql{
     height:5px;
     width: 5px;
