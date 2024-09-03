@@ -22,12 +22,22 @@ body{
 .QuemSouEu{
     height:100vh ;
     display: flex;
-    flex-direction: row;  
+    flex: 1;
 }
 
 .QuemSouEu img{
-    height: 50vh;
-    width: 50vh;
+    flex: 1; /* Cada lado ocupa igual espaço */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Texto{
+    flex: 1; /* Cada lado ocupa igual espaço */
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* .QuemSouEu h1, .QuemSouEu p{
@@ -57,22 +67,39 @@ body{
     
 }
 
+.Conhecimento h1{
+    position: absolute;
+    
+}
+
 .Projetos{
     height:100vh ;
+    
    
 }
 
-.Contatos{
-    height:100vh ;
-    
-    
+.Projetos img{
+    height:30vh;
+    width:30vh;
 }
+
+.visita, .equipamento{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Contatos{
+    height:100vh;
+}
+
 
 .Contatos img{
     border-radius: 5px;
     height:50px ;
     width:50px ;
-
 }
 /* .Python, .Java, .Html, .Css, .Javascript, .Sql{
     height:5px;
