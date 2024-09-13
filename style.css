@@ -1,20 +1,31 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
     background-color: rgb(34, 34, 34); 
     color: rgb(255, 255, 255);
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
     display: flex;
     flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 /******************************************************/
 #fixo{
     position: fixed;
     width: 100%;
     text-align:end;
+
 }
+
+#fixo a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
 /******************************************************/
 .Inicio{
     font-size: 100px;
@@ -23,12 +34,21 @@ body{
     flex-direction: column;
     text-align: center;/*Deixa texto no centro*/
     justify-content: center;
+   background-image: url('https://images.pexels.com/photos/27457038/pexels-photo-27457038/free-photo-of-mar-panorama-vista-paisagem.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 }
 /******************************************************/
 .QuemSouEu{
     height:100vh ;
     display: flex;
     flex: 1;
+    background-image: url('') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 /******************************************************/
 .QuemSouEu img{
@@ -36,7 +56,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* height: 60px; */
+    width: 60px; 
     border-radius: 10px;
+    border-radius: 50%;
+}
+
+.QuemSouEu li{
+    margin: 15px;
+    font-size: 25px;
+    list-style-type: square;
 }
 /******************************************************/
 .Texto{
@@ -52,7 +81,9 @@ body{
     grid-template-columns: 1fr 1fr; /* Define duas colunas de tamanho igual */
     gap: 10px; /* Espaçamento entre os elementos */
     text-align: center;
-    /* background-image: url(https://cdn.create.vista.com/api/media/small/220653746/stock-photo-writing-programming-code-laptop-digital-binary-data-computer-screen-project); */
+    /* background-image: url('https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+    background-repeat: no-repeat; */
 }
 /******************************************************/
 .Conhecimento img{
@@ -72,17 +103,20 @@ body{
 /******************************************************/
 .Projetos{
     height:100vh ; 
-    /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzgGRCE0GM3eXZnh70hfbsdANrGpRYThLg_Q&s) ;
-    position: absolute; */
     overflow-x: auto;
+    /* background-image:url('https://images.pexels.com/photos/249798/pexels-photo-249798.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+    background-position: center;
+    background-repeat: no-repeat; */
 } 
 /******************************************************/
 .Projetos img{
     height:20vh;
     width:20vh; 
+    background-color: aliceblue;
+    border-radius: 5px;
 }
 /******************************************************/
-.visita, .equipamento, .funcionario{
+.visita, .equipamento, .funcionario, .ia{
     display: flex;
     gap: 10px;
     align-items: center;
@@ -91,6 +125,9 @@ body{
 /******************************************************/
 .Contatos{
     height:100vh;
+    /* background-image: url('https://images.pexels.com/photos/3585075/pexels-photo-3585075.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+    background-repeat: no-repeat; */
 }
 /******************************************************/
 .Contatos img{
@@ -98,4 +135,3 @@ body{
     height:20vh;
     width:20vh;
 }
-
