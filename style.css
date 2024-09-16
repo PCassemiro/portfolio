@@ -34,15 +34,16 @@ body{
     flex-direction: column;
     text-align: center;/*Deixa texto no centro*/
     justify-content: center;
-   background-image: url('https://images.pexels.com/photos/27457038/pexels-photo-27457038/free-photo-of-mar-panorama-vista-paisagem.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-image: url('FundoInicio.jpg');
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
 }
 /******************************************************/
 .QuemSouEu{
-    height:100vh ;
+    height:100vh ; 
     display: flex;
+    /* flex: 1; Atrapalha o heightb 100vh */
 }
 /******************************************************/
 .QuemSouEu img{
@@ -50,11 +51,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60vh; 
-    width: 100px;
-    border-radius: 10px;
+    width: 1%;
+    height: auto;
     border-radius: 50%;
-    /* mask-image: url('https://th.bing.com/th/id/OIP.WIZ_nEhqc8IVV5puBGdxWQHaHa?rs=1&pid=ImgDetMain'); */
 }
 
 .QuemSouEu li{
