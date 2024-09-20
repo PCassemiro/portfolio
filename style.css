@@ -34,7 +34,7 @@ body{
     flex-direction: column;
     text-align: center;/*Deixa texto no centro*/
     justify-content: center;
-   background-image: url('FundoInicio.jpg');
+   
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -51,8 +51,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1%;
-    height: auto;
+    width: 10%;
+    height: 70vh;
     border-radius: 50%;
 }
 
@@ -110,7 +110,7 @@ body{
     border-radius: 5px;
 }
 /******************************************************/
-.visita, .equipamento, .funcionario, .ia{
+.visita, .equipamento, .funcionario, .ia,.tarefa{
     display: flex;
     gap: 10px;
     align-items: center;
