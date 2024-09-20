@@ -2,6 +2,6 @@
 var IdImagem=window.document.getElementById('imagem')
 function clicar() {
     IdImagem.set
-    IdImagem.setAttribute('src', 'pixels.jpg')
+    IdImagem.setAttribute('src', 'perfil.jpg')
 }
 //
